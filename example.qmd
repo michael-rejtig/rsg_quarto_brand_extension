@@ -15,7 +15,7 @@ format: html
 
 Here is some inline code: `def foo(x): return x`{.python} and `y`{.python} and `z`{.python}.
 
-Here is [a link](https://example.com).
+Here is [a link](https://quarto.org/docs/authoring/brand.html#applying-brand) to Quarto docs for applying branding.
 
 Here is a code block:
 
