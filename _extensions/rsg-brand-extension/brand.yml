@@ -1,0 +1,75 @@
+# Setup RSG color palette
+color:
+  palette:
+    ## Primary
+    dark-grey: "#48484A"
+    orange: "#F68B1F"
+    ## Secondary - vibrant
+    marine: "#006FA1"
+    sky: "#75BEE9"
+    leaf: "#63AF5E"
+    sunshine: "#FFC20E"
+    cherry: "#BA1222"
+    violet: "#524D85"
+    ## Secondary - greys
+    storm: "#77787B"
+    fog: "#B1B3B6"
+    mist: "#DCDDDE"
+    ## Secondary - black
+    rsg-black: "#262626"
+    # Not RSG Colors
+    white: "#FFFFFF"
+    
+  # Apply colors
+  # TODO: Setup dark and light mode
+  foreground: rsg-black 
+  background: white
+  primary: orange
+  secondary: dark-grey
+  tertiary: fog
+  success: orange
+  info: sky
+  warning: sunshine
+  danger: cherry
+
+# Setup logos
+logo:
+  # Create dictionary of images (logos)
+  images:
+    small-no-tag:
+      path: images/RSG_RegisteredTM_Logos_Logo_No_Tag_Small.png
+      alt: "RSG logo"
+    large-no-tag:
+      path: images/RSG_RegisteredTM_Logos_Logo_No_Tag_Large.png
+      alt: "RSG logo"
+    small-wtih-tag:
+      path: images/RSG_RegisteredTM_Logos_Logo_Tag_Small.png
+      alt: "RSG logo"
+    large-with-tag:
+      path: images/RSG_RegisteredTM_Logos_Logo_Tag_Large.png
+      alt: "RSG logo"
+  # Set an image for small, medium, and large
+  small: small-no-tag
+  large: large-no-tag
+
+# Setup typography
+# TODO: Make Gotham font available to _branding.yml in RSG projects
+typography:
+  fonts:
+    - family: Arial
+      source: google
+    # - family: Gotham-BookItalic
+    #   file: fonts/Gotham-BookItalic.otf
+    #   source: file
+  base:
+    family: Arial
+  headings:
+    family: Arial
+    color: dark-grey
+  monospace-inline:
+    color: marine
+  monospace-block:
+    # background-color: mist
+    color: marine
+  link:
+    color: orange
